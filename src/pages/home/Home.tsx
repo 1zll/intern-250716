@@ -1,7 +1,6 @@
 /**
  * ホームページ
  */
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import trainImg from '../../assets/train.png'
 import './Home.scss'
