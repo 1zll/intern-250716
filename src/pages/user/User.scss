@@ -27,9 +27,15 @@
     grid-template-columns: 1fr 1fr;
     gap: 30px;
 
+    
     @media (max-width: 768px) {
       grid-template-columns: 1fr;
     }
+  }
+
+  .back-link {
+    margin-top: 60px;
+    text-align: center;
   }
 
   .demo-section, .output-section {
