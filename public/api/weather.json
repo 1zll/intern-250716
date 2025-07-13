@@ -1,0 +1,27 @@
+{
+  "weather": {
+    "location": {
+      "city": "東京",
+      "prefecture": "東京都"
+    },
+    "current": {
+      "date": "2025-07-13",
+      "time": "15:30",
+      "temp": 28.5,
+      "condition": "晴れ時々曇り",
+      "humidity": 65,
+      "windDirection": "南東",
+      "windSpeed": 12.6
+    },
+    "forecast": {
+      "maxTemp": 31.2,
+      "minTemp": 25.8,
+      "chanceOfRain": 70,
+      "condition": "晴れのち雨"
+    },
+    "warning": {
+      "title": "熱中症警戒アラート",
+      "description": "日中の気温が31度を超える見込みです。外出時は帽子の着用や水分補給を心がけてください。"
+    }
+  }
+}

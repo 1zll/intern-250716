@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": "p001",
+      "name": "高性能ノートPC",
+      "category": "電子機器",
+      "price": 128000,
+      "stock": 15,
+      "description": "最新のプロセッサと高速メモリを搭載した高性能ノートPCです。",
+      "imageUrl": "/images/products/laptop.jpg",
+      "rating": 4.7,
+      "features": ["16GB RAM", "1TB SSD", "15インチディスプレイ"],
+      "releaseDate": "2025-01-15"
+    },
+    {
+      "id": "p002",
+      "name": "ワイヤレスヘッドフォン",
+      "category": "オーディオ機器",
+      "price": 32000,
+      "stock": 28,
+      "description": "ノイズキャンセリング機能付きの高音質ワイヤレスヘッドフォンです。",
+      "imageUrl": "/images/products/headphones.jpg",
+      "rating": 4.5,
+      "features": ["Bluetooth 5.0", "ノイズキャンセリング", "30時間バッテリー"],
+      "releaseDate": "2024-11-05"
+    },
+    {
+      "id": "p003",
+      "name": "スマートウォッチ",
+      "category": "ウェアラブル",
+      "price": 42000,
+      "stock": 10,
+      "description": "健康管理機能と通知機能を備えた最新のスマートウォッチです。",
+      "imageUrl": "/images/products/smartwatch.jpg",
+      "rating": 4.2,
+      "features": ["心拍数モニター", "GPS", "防水"],
+      "releaseDate": "2025-03-20"
+    },
+    {
+      "id": "p004",
+      "name": "4Kテレビ",
+      "category": "電子機器",
+      "price": 98000,
+      "stock": 5,
+      "description": "鮮やかな色彩と高解像度の4K対応スマートテレビです。",
+      "imageUrl": "/images/products/tv.jpg",
+      "rating": 4.8,
+      "features": ["55インチ", "4K解像度", "スマートTV機能"],
+      "releaseDate": "2024-12-10"
+    },
+    {
+      "id": "p005",
+      "name": "ゲーミングマウス",
+      "category": "PC周辺機器",
+      "price": 9800,
+      "stock": 30,
+      "description": "高精度センサーとカスタマイズ可能なボタンを備えたゲーミングマウスです。",
+      "imageUrl": "/images/products/mouse.jpg",
+      "rating": 4.6,
+      "features": ["16000 DPI", "RGBライティング", "8プログラマブルボタン"],
+      "releaseDate": "2025-02-05"
+    }
+  ],
+  "meta": {
+    "total": 5,
+    "page": 1,
+    "limit": 10,
+    "lastUpdated": "2025-07-13T10:15:00+09:00"
+  }
+}

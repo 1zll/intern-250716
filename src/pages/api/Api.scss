@@ -1,0 +1,145 @@
+$primary-color: #646cff;
+$secondary-color: #747bff;
+$background-color: #f8f9fa;
+$code-background: #282c34;
+$border-color: #e5e7eb;
+
+.api-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+  h1 {
+    font-size: 2.5rem;
+    color: $primary-color;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .api-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    text-align: center;
+    
+    code {
+      background-color: rgba($primary-color, 0.1);
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+  }
+  
+  .endpoint-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .endpoint-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+      color: $primary-color;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    p {
+      color: #555;
+      margin-bottom: 1rem;
+    }
+    
+    .endpoint-url {
+      background-color: $background-color;
+      border: 1px solid $border-color;
+      border-radius: 4px;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      overflow-x: auto;
+      
+      code {
+        font-family: monospace;
+        color: #333;
+      }
+    }
+    
+    .endpoint-actions {
+      display: flex;
+      justify-content: flex-end;
+      
+      .view-button {
+        background-color: $primary-color;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 0.5rem 1rem;
+        font-weight: 500;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        
+        &:hover {
+          background-color: $secondary-color;
+        }
+      }
+    }
+  }
+  
+  .code-example {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    
+    h2 {
+      color: $primary-color;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    pre {
+      background-color: $code-background;
+      border-radius: 6px;
+      padding: 1rem;
+      overflow-x: auto;
+      text-align: left;
+      
+      code {
+        font-family: 'Fira Code', Consolas, Monaco, 'Andale Mono', monospace;
+        color: white;
+        line-height: 1.5;
+      }
+    }
+  }
+  
+  .back-link {
+    text-align: center;
+    margin-top: 2rem;
+    
+    a {
+      color: $primary-color;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      border: 1px solid $primary-color;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background-color: $primary-color;
+        color: white;
+      }
+    }
+  }
+}
