@@ -1,0 +1,56 @@
+// ホームページのスタイル
+.home {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+// トレイン画像のブロック
+.header {
+  width: 100%;
+  z-index: 1000;
+
+  &-inner {
+    width: 100%;
+    padding: 0.5rem 1rem;
+  }
+  
+  &-logo {
+    display: inline-block;
+    height: 200px;
+    width: auto;
+
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  &-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+
+// リンクリスト
+.link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: 0.5rem;
+
+    a {
+      color: #333;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

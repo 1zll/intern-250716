@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "山田太郎",
+      "email": "yamada@example.com",
+      "role": "admin",
+      "age": 35,
+      "active": true,
+      "department": "開発部",
+      "joinedAt": "2022-04-01"
+    },
+    {
+      "id": 2,
+      "name": "佐藤花子",
+      "email": "sato@example.com",
+      "role": "user",
+      "age": 28,
+      "active": true,
+      "department": "マーケティング部",
+      "joinedAt": "2023-07-15"
+    },
+    {
+      "id": 3,
+      "name": "鈴木一郎",
+      "email": "suzuki@example.com",
+      "role": "user",
+      "age": 42,
+      "active": false,
+      "department": "営業部",
+      "joinedAt": "2020-10-05"
+    },
+    {
+      "id": 4,
+      "name": "田中美咲",
+      "email": "tanaka@example.com",
+      "role": "manager",
+      "age": 32,
+      "active": true,
+      "department": "人事部",
+      "joinedAt": "2021-12-01"
+    },
+    {
+      "id": 5,
+      "name": "伊藤健太",
+      "email": "ito@example.com",
+      "role": "user",
+      "age": 25,
+      "active": true,
+      "department": "開発部",
+      "joinedAt": "2024-01-10"
+    }
+  ],
+  "meta": {
+    "total": 5,
+    "page": 1,
+    "limit": 10,
+    "lastUpdated": "2025-07-13T09:00:00+09:00"
+  }
+}
