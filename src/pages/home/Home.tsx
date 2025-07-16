@@ -26,6 +26,7 @@ function Home() {
           　<li><Link to="/yamaharuna">やまもとはるな</Link></li>
             <li><Link to="/mypage">マイページ</Link></li>
             <li><Link to="/user">ユーザー検索</Link></li>
+            <li><Link to="/ishiya">いしや</Link></li>
           </ul>
         </section>
       </div>
