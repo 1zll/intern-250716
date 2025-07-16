@@ -38,6 +38,12 @@ function MahoKawase() {
                 <span className="label">入社日:</span>
                 <span className="value">2027/04/01</span>
               </div>
+              <div className="mypage-info-item">
+                <span className="label">作ったAPI:</span>
+                <span className="value">
+                  <Link to="/events" className="mypage-link">イベント一覧</Link>
+                </span>
+              </div>
             </div>
           </div>
 

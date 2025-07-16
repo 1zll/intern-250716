@@ -7,8 +7,8 @@ import Api from './pages/api'
 import User from './pages/user'
 import MahoKawase from './pages/mahokawase'
 import Ishiya from './pages/ishiya'
-
 import './App.scss'
+import Events from './pages/mahokawase/Events'
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
         <Route path="/api" element={<Api />} />
         <Route path="/user" element={<User />} />
         <Route path="/mahokawase" element={<MahoKawase />} />
+        <Route path='/events' element={<Events />}/>
         <Route path="/ishiya" element={<Ishiya />} />
 
         <Route path="*" element={<NotFound />} />
