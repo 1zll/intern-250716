@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/home'
 import MyPage from './pages/mypage'
+import Shion from './pages/shion'//Shionのページをインポートしている
 import NotFound from './pages/not-found'
 import Api from './pages/api'
 import User from './pages/user'
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/mypage" element={<MyPage />} />
+        <Route path="/shion" element={<Shion />} />{/* Shionのページへのルートを追加 */}
         <Route path="/api" element={<Api />} />
         <Route path="/user" element={<User />} />
         <Route path="/ishiya" element={<Ishiya />} />

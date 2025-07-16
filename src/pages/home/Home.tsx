@@ -25,6 +25,8 @@ function Home() {
           <ul className="link-list">
             <li><Link to="/mypage">マイページ</Link></li>
             <li><Link to="/user">ユーザー検索</Link></li>
+            {/* Shionのページへのリンク Linkというコンポーネントでページを指定していく(リアクトのアプリの機能を使う=早くなる)*/}
+            <li><Link to="/shion">潮音</Link></li>
             <li><Link to="/ishiya">いしや</Link></li>
           </ul>
         </section>
