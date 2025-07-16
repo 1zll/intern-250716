@@ -67,7 +67,7 @@ function Api() {
         <pre>
           <code>
 {`// Fetch APIを使用してデータを取得する例
-fetch('${baseUrl}/api/users.json')
+fetch('/api/users.json')
   .then(response => response.json())
   .then(data => {
     console.log(data);
@@ -78,7 +78,7 @@ fetch('${baseUrl}/api/users.json')
 // または async/await を使用
 async function fetchData() {
   try {
-    const response = await fetch('${baseUrl}/api/products.json');
+    const response = await fetch('/api/products.json');
     const data = await response.json();
     console.log(data);
     // データを処理するコード
