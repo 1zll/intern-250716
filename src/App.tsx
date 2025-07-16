@@ -5,6 +5,7 @@ import NotFound from './pages/not-found'
 import Api from './pages/api'
 import User from './pages/user'
 import MahoKawase from './pages/mahokawase'
+import Ishiya from './pages/ishiya'
 import './App.scss'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/api" element={<Api />} />
         <Route path="/user" element={<User />} />
         <Route path="/mahokawase" element={<MahoKawase />} />
+        <Route path="/ishiya" element={<Ishiya />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       

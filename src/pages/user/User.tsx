@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './User.scss'
 
 function User() {
@@ -119,6 +120,10 @@ function User() {
           ) : null}
           
         </section>
+
+      </div>
+      <div className="back-link">
+        <Link to="/">ホームに戻る</Link>
       </div>
     </div>
   );
