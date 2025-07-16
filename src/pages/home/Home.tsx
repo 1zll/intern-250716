@@ -23,9 +23,12 @@ function Home() {
       <div className="main">
         <section className="section">
           <ul className="link-list">
+          　<li><Link to="/yamaharuna">やまもとはるな</Link></li>
             <li><Link to="/mypage">マイページ</Link></li>
             <li><Link to="/user">ユーザー検索</Link></li>
             <li><Link to="/mahokawase">川瀬 真帆</Link></li>
+            {/* Shionのページへのリンク Linkというコンポーネントでページを指定していく(リアクトのアプリの機能を使う=早くなる)*/}
+            <li><Link to="/shion">潮音</Link></li>
             <li><Link to="/ishiya">いしや</Link></li>
           </ul>
         </section>
