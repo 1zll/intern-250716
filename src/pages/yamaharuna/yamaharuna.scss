@@ -1,0 +1,139 @@
+// 自分のページのスタイル
+$primary-color: pink;
+$background-color: #f9f9f9;
+$border-color: #e0e0e0;
+$text-color: #333;
+//$light-text-color: #666;
+$light-text-color: rgb(251, 151, 168);
+
+.mypage {
+  min-height: 100vh;
+  background-color: $background-color;
+  padding: 2rem 1rem;
+  
+  &-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  &-title {
+    font-size: 2rem;
+    color: $primary-color;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 0;
+    border-bottom: 1px solid $border-color;
+  }
+  
+  &-content {
+    padding: 2rem;
+  }
+  
+  &-profile {
+    margin-bottom: 2rem;
+    
+    &-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+  }
+  
+  &-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: $primary-color;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 1.5rem;
+  }
+  
+  &-name {
+    font-size: 1.8rem;
+    color: $text-color;
+    margin: 0;
+  }
+  
+  &-info {
+    background-color: $background-color;
+    border-radius: 6px;
+    padding: 1.5rem;
+    display: flex; 
+    gap: 2rem;    
+    
+    &-item {
+      display: flex;
+      flex-direction: column; 
+      margin-bottom: 1rem;
+      min-width: 120px; 
+      background-color: white; // 各要素の背景色
+      border: 1px solid $border-color; //枠線で区切り
+      border-radius: 8px; // ★ 角を丸く
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); //軽い影で立体感
+      flex: 2; 
+      align-items: center;       
+      text-align: center;  
+      width: 500px;
+      height: 100px;      
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+      
+      .label {
+        display: block; // ラベルをブロック要素として表示
+        margin-bottom: 0.5rem; // ラベルと値の間に余白を追加
+        font-size: 18px;
+        font-weight: bold;
+        color: $light-text-color;
+        
+       
+      }
+      
+      .value {
+        color: $text-color;
+        display: block; // 値をブロック要素として表示
+      }
+    }
+  }
+  
+}
+
+// レスポンシブ対応
+@media (max-width: 768px) {
+  .mypage {
+    padding: 1rem 0.5rem;
+    
+    &-profile-header {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    &-avatar {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+    
+    &-info-item {
+      flex-direction: column;
+      
+      .label {
+        width: 100%;
+        margin-bottom: 0.25rem;
+      }
+    }
+    &-links {
+      text-align: center;
+      margin-top: 1rem;
+    }
+  }
+}
