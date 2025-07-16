@@ -25,6 +25,7 @@ function Home() {
           <ul className="link-list">
             <li><Link to="/mypage">マイページ</Link></li>
             <li><Link to="/user">ユーザー検索</Link></li>
+            <li><Link to="/ishiya">いしや</Link></li>
           </ul>
         </section>
       </div>
